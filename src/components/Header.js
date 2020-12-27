@@ -17,7 +17,7 @@ const Styles = styled.div`
 const Header = () => {
     return(
     <Styles>
-      <Navbar variant="dark" expand="lg" fixed="top">
+      <Navbar variant="dark" expand="lg">
         <Navbar.Brand href="/">Bhanu Gupta</Navbar.Brand>
         <Nav className="ml-auto">
           <Nav.Item className="mr-5"><Nav.Link href="/">Projects</Nav.Link></Nav.Item> 
