@@ -8,6 +8,9 @@ const Styles = styled.div`
     margin-right: 20%;
     margin-top: 1%;
   }
+  a {
+    color: black;
+  }
 `;
 
 const Header = () => {
@@ -16,7 +19,9 @@ const Header = () => {
       <CardDeck>
         <Card>
           <Card.Body>
-            <Card.Title className="text-center">Blog posts</Card.Title>
+            <h4 className="text-center">
+              <a href="/blogs">Blog Posts</a>
+            </h4>
             <Card.Text>All the articles I've written.</Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -25,8 +30,10 @@ const Header = () => {
         </Card>
         <Card>
           <Card.Body>
-            <Card.Title className="text-center">My Projects</Card.Title>
-            <Card.Text>I mostly work with Python, JS, React, Node, and Django.</Card.Text>
+            <h4 className="text-center">
+              <a href="/projects">My Projects</a>
+            </h4>
+            <Card.Text>I mostly work with Python, JS, React, Node, Django, and Open Source Technologies.</Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">Last updated on 27th Dec 2020</small>

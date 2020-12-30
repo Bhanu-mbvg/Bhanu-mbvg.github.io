@@ -1,21 +1,22 @@
 import React from 'react';
-
-import Content from "./components/Content";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Title from "./components/Title";
-
+import { BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import HomePage from './pages/HomePage';
+import ProjectsPage from './pages/ProjectsPage'
+import ErrorPage from './pages/ErrorPage'
+
+
 function App() {
   return (
-    <div>
-      <Header/>
-      <Title/>
-      <Content/>
-      <Footer/>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/projects" component={ProjectsPage} />
+        <Route component={ErrorPage} />
+      </Switch>
+    </Router>
   );
 }
 

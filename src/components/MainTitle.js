@@ -11,7 +11,7 @@ const Styles = styled.div`
   }
 `;
 
-const Title = () => {
+const MainTitle = () => {
     return(
     <Styles>
       <Card border="light" className="text-center">
@@ -31,4 +31,4 @@ const Title = () => {
     );
 }
 
-export default Title;
+export default MainTitle;

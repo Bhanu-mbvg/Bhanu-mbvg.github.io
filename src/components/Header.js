@@ -20,7 +20,7 @@ const Header = () => {
       <Navbar variant="dark" expand="lg">
         <Navbar.Brand href="/">Bhanu Gupta</Navbar.Brand>
         <Nav className="ml-auto">
-          <Nav.Item className="mr-5"><Nav.Link href="/">Projects</Nav.Link></Nav.Item> 
+          <Nav.Item className="mr-5"><Nav.Link href="/projects">Projects</Nav.Link></Nav.Item> 
           <Nav.Item className="mr-5"><Nav.Link href="/about">Blog</Nav.Link></Nav.Item>
           <Nav.Item className=""><Nav.Link href="/about">Resume</Nav.Link></Nav.Item>
         </Nav>
