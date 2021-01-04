@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-router-dom';
+import { HashRouter as Router, Route, Switch} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +14,6 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/projects" component={ProjectsPage} />
-        <Route component={ErrorPage} />
       </Switch>
     </Router>
   );
