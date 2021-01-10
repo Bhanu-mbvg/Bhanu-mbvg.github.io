@@ -9,20 +9,22 @@ const Styles = styled.div`
   }
 `;
 
-const MainTitle = () => {
+const Title = (props) => {
     return(
     <Styles>
       <Card border="light" className="text-center">
         <Card.Header></Card.Header>
         <Card.Body>
-          <h2>My Projects</h2>
-          <Card.Text className="pt-4">
-            These are all the projects which I have made and contributed to. I am comfotable working with Python, JS, React, Node, and Django but always intend to go beyond and learn more technologies. 
-          </Card.Text>
+        <Image className="img-fluid pb-3" src= { props.image } roundedCircle />
+          <h2> { props.heading } </h2>
+          <div className="pt-4">
+            <Card.Text> { props.text1 } </Card.Text>
+            <Card.Text> { props.text2 } </Card.Text>
+          </div>
         </Card.Body>
       </Card>
     </Styles>
     );
 }
 
-export default MainTitle;
+export default Title;

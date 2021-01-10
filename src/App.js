@@ -3,9 +3,9 @@ import { HashRouter as Router, Route, Switch} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import BlogPage from './pages/BlogPage';
 import HomePage from './pages/HomePage';
-import ProjectsPage from './pages/ProjectsPage'
-import ErrorPage from './pages/ErrorPage'
+import ProjectsPage from './pages/ProjectsPage';
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/projects" component={ProjectsPage} />
+        <Route exact path="/blogs" component={BlogPage} />
       </Switch>
     </Router>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { CardDeck } from 'react-bootstrap';
 import GhCard from './GhCard';
 
-const GithubRepos = () => {
+const ProjectList = () => {
   return(
     <div className="container py-1">
       <CardDeck className="row">
@@ -43,4 +43,4 @@ const GithubRepos = () => {
   );
 }
 
-export default GithubRepos;
+export default ProjectList;

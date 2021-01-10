@@ -20,7 +20,7 @@ const Header = () => {
         <Card>
           <Card.Body>
             <h4 className="text-center">
-              <a href="/blogs">Blog Posts</a>
+              <a href="#/blogs">Blog Posts</a>
             </h4>
             <Card.Text>All the articles I've written.</Card.Text>
           </Card.Body>
@@ -31,12 +31,12 @@ const Header = () => {
         <Card>
           <Card.Body>
             <h4 className="text-center">
-              <a href="/projects">My Projects</a>
+              <a href="#/projects">My Projects</a>
             </h4>
             <Card.Text>I mostly work with Python, JS, React, Node, Django, and Open Source Technologies.</Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated on 27th Dec 2020</small>
+            <small className="text-muted">Last updated on 2nd Jan 2021</small>
           </Card.Footer>
         </Card>
       </CardDeck>
