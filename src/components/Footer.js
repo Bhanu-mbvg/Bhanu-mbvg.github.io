@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav ,Navbar } from 'react-bootstrap';
 import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
 import styled from 'styled-components';
 
@@ -6,35 +7,32 @@ const Styles = styled.div`
   a { 
     color: #24292e;
   }
-  p {
-    bottom: 0;
-  }
 `;
 
-const Header = () => {
+const Footer = () => {
     return(
     <Styles>
-      <footer expand="sm" className="footer">
-      <p className="mt-5 text-center">
-        <span className="px-5">
-          <a href="https://www.facebook.com/kyadekhteh0/" target="_blank" rel="noreferrer">
+      <Navbar expand="sm" className="justify-content-center fixed-bottom" >
+      <Nav>
+        <span className="py-2 px-5">
+          <a href="https://www.facebook.com/kyadekhteh0/" target="_blank">
             <FaFacebook size={35}/>
           </a>
         </span>  
-        <span className="px-5">  
-          <a href="https://www.linkedin.com/in/bvg/" target="_blank" rel="noreferrer">
+        <span className="py-2 px-5">  
+          <a href="https://www.linkedin.com/in/bvg/" target="_blank">
             <FaLinkedin size={35}/>
           </a>
         </span>  
-        <span className="px-5">
-          <a href="https://github.com/Bhanu-mbvg/" target="_blank" rel="noreferrer">
+        <span className="py-2 px-5">
+          <a href="https://github.com/Bhanu-mbvg/" target="_blank" >
             <FaGithub size={35}/>
           </a>
         </span>
-        </p>
-      </footer>
+        </Nav>
+      </Navbar>
     </Styles>
     );
 } 
 
-export default Header;
+export default Footer;
