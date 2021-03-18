@@ -10,7 +10,7 @@ const BlogPage = () => {
         <Header/>
         <Title
             heading = "My Blogs"
-            text1 = "These are all the blogs which I have written. I am not very active in writing these blogs but do take out time when I feel I can share some knowlegde or skill."
+            text1 = "These are all the blogs which I have written. I am not very active in writing these blogs but do take out time when I feel I can share some knowledge or skill."
             />
         <BlogList/>
       </div>
