@@ -8,6 +8,14 @@ const ProjectList = () => {
       <CardDeck className="row">
         <div className="col-lg-4 d-flex align-items-stretch col py-3">  
           <GhCard 
+            reponame = "Pathfinder" 
+            repourl = "https://github.com/Bhanu-mbvg/pathfinder" 
+            repolang = "JavaScript"
+            repolangcolor = "#f1e05a"
+            repodesc = "Pathfinding Visualiser showing algorithms like A*, BFS, DFS and Dijkstra between 2 nodes in an interactive canvas."/>
+        </div>
+        <div className="col-lg-4 d-flex align-items-stretch col py-3">  
+          <GhCard 
             reponame = "Smart-Cursor" 
             repourl = "https://github.com/Bhanu-mbvg/Smart-Cursor" 
             repolang = "Python"
@@ -24,20 +32,20 @@ const ProjectList = () => {
         </div>
         <div className="col-lg-4 d-flex align-items-stretch col py-3">    
           <GhCard 
-            reponame = "LauncherExtension" 
-            repourl = "https://github.com/Bhanu-mbvg/LauncherExtension" 
-            repolang = "Javascript"
-            repolangcolor = "#f1e05a"
-            repodesc = "A chrome and firefox extension for ease of access for social links."/>
-        </div>
-        <div className="col-lg-4 d-flex align-items-stretch col py-3">    
-          <GhCard 
             reponame = "AirbnbNLP" 
             repourl = "https://github.com/Bhanu-mbvg/AirbnbNLP" 
             repolang = "Jupyter Notebook"
             repolangcolor = "#da5b26"
             repodesc = "Classification of reviews of Airbnb by the process of NLP."/>
-        </div>  
+        </div>
+        <div className="col-lg-4 d-flex align-items-stretch col py-3">    
+          <GhCard 
+            reponame = "LauncherExtension" 
+            repourl = "https://github.com/Bhanu-mbvg/LauncherExtension" 
+            repolang = "Javascript"
+            repolangcolor = "#f1e05a"
+            repodesc = "A chrome and firefox extension for ease of access for social links."/>
+        </div> 
       </CardDeck>
     </div>
   );

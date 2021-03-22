@@ -6,7 +6,7 @@ const Styles = styled.div`
   .card-deck{
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 1%;
+    margin-top: 3%;
   }
   a {
     color: black;
@@ -22,7 +22,7 @@ const Header = () => {
             <h4 className="text-center">
               <a href="#/blogs">Blog Posts</a>
             </h4>
-            <Card.Text>All the articles I've written.</Card.Text>
+            <Card.Text>All the blogs and articles I've written.</Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">Last updated on 27th Dec 2020</small>
@@ -33,10 +33,10 @@ const Header = () => {
             <h4 className="text-center">
               <a href="#/projects">My Projects</a>
             </h4>
-            <Card.Text>I mostly work with Python, JS, React, Node, Django, and Open Source Technologies.</Card.Text>
+            <Card.Text>All the project work of mine and in which I collaborated.</Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated on 2nd Jan 2021</small>
+            <small className="text-muted">Last updated on 22nd March 2021</small>
           </Card.Footer>
         </Card>
       </CardDeck>
