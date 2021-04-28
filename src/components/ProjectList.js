@@ -8,6 +8,22 @@ const ProjectList = () => {
       <CardDeck className="row">
         <div className="col-lg-4 d-flex align-items-stretch col py-3">  
           <GhCard 
+            reponame = "CharNet-Handwritten" 
+            repourl = "https://github.com/Bhanu-mbvg/CharNet-Handwritten" 
+            repolang = "Jupyter Notebook"
+            repolangcolor = "#da5b26"
+            repodesc = "Character Convolution Network to recognise the digits(0-9) and characters(A-Z and a-z)"/>
+        </div>
+        <div className="col-lg-4 d-flex align-items-stretch col py-3">  
+          <GhCard 
+            reponame = "ExploratoryAnalysis-IPL" 
+            repourl = "https://github.com/Bhanu-mbvg/ExploratoryAnalysis-IPL" 
+            repolang = "Jupyter Notebook"
+            repolangcolor = "#da5b26"
+            repodesc = "Exploratory Data Analysis and visualisation using the IPL(cricket league) Dataset from 2008 to 2020"/>
+        </div>
+        <div className="col-lg-4 d-flex align-items-stretch col py-3">  
+          <GhCard 
             reponame = "Pathfinder" 
             repourl = "https://github.com/Bhanu-mbvg/pathfinder" 
             repolang = "JavaScript"
@@ -20,7 +36,7 @@ const ProjectList = () => {
             repourl = "https://github.com/Bhanu-mbvg/Smart-Cursor" 
             repolang = "Python"
             repolangcolor = "#3872a5"
-            repodesc = "Python Script to move the mouse using your hand. It uses opencv and pyautogui libraries."/>
+            repodesc = "Automate the movements of mouse using your hand using OpenCV"/>
         </div>
         <div className="col-lg-4 d-flex align-items-stretch col py-3">    
           <GhCard 

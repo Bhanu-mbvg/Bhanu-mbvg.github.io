@@ -20,10 +20,10 @@ const MainTitle = () => {
         <Image className="img-fluid pb-3" src= {dp1} roundedCircle />
           <Card.Title>Bhanu Gupta</Card.Title>
           <Card.Text>
-            A passionate programmer and a Computer Science undergraduate student skilled in Data Science and Web Technologies. 
+            Computer Science undergraduate student skilled in Data Science and Web Technologies. 
           </Card.Text>
           <Card.Text>
-            I have experience in building ML Models, REST APIs, full-stack web applications, test-driven development. I love exploring and learning new tech and have worked with various technologies and languages 
+            I have experience in building ML Models, APIs, full-stack web applications, web-apps, test-driven development. I am a passionate learner and love to explore new technologies.
           </Card.Text>
         </Card.Body>
       </Card>

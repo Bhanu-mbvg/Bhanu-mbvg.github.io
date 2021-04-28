@@ -10,7 +10,7 @@ const ProjectsPage = () => {
         <Header/>
         <Title
           heading = "My Projects"
-          text1 = "These are all the projects which I have made and contributed to. I am comfotable working with Python, JS, React, Node, and Django but always intend to go beyond and learn more technologies."/>
+          text1 = "List of all projects on which I have worked on"/>
         <ProjectList/>
       </div>
     );
